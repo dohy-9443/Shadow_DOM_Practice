@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.header {
+  width: 100%;
+  height: 500px;
+  background: black;
+}
+
+.main-contents {
+  padding-top: 100px;
+}
