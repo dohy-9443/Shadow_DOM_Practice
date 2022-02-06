@@ -130,6 +130,8 @@ class shadowPrac extends HTMLElement {
       ${html}
     `;
 
+    // shadowRoot 선언
+
     this.buttonInc = this.shadowRoot.querySelector('.inc')
     this.buttonDec = this.shadowRoot.querySelector('.dec')
     this.spanValue = this.shadowRoot.querySelector('.count')
@@ -139,6 +141,8 @@ class shadowPrac extends HTMLElement {
     this.popupToggle = this.shadowRoot.querySelector('.popup-container')
     this.popupTitle = this.shadowRoot.querySelector('.popup-title')
     this.popupBtn = this.shadowRoot.querySelector('.popup-btn')
+
+    // bind 
 
     this.inc = this.inc.bind(this)
     this.dec = this.dec.bind(this)
@@ -150,6 +154,8 @@ class shadowPrac extends HTMLElement {
     this.popupClose = this.popupClose.bind(this)
   }
 
+  // 
+  
   inc() {
     this.count++;
     this.update();
