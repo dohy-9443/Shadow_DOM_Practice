@@ -92,13 +92,13 @@ class shadowPrac extends HTMLElement {
           <li>
             <a class='link' href='javascript:void(0)'>테스트1</a>
             <ul>
-              <li><a class='link' href='javascript:void(0)'>sub1</a></li>
+              <li><a class='link' href='./main.html'>sub1</a></li>
               <li><a class='link' href='javascript:void(0)'>sub1</a></li>  
               <li><a class='link' href='javascript:void(0)'>sub1</a></li>  
             </ul>
           
           </li>
-          <li><a class='link' href='javascript:void(0)'>테스트2</a></li>
+          <li><a class='link' href='./index.html'>테스트2</a></li>
           <li><a class='link text' href='javascript:void(0)'>${this.text}</a></li>
           <li><a class='link popup1' href='javascript:void(0)'>팝업1</a></li>
           <li><a class='link popup2' href='javascript:void(0)'>팝업2</a></li>
